@@ -44,8 +44,10 @@ button:hover {
     background-color: #1976D2;
 }
 td {
-    border-top: 1px double;
-    verticle-align: top;
-    text-align: justify;
+    vertical-align: top;
+    text-align: center;
     padding: 20px;
+}
+tr {
+    border-bottom: 1px solid;
 }
