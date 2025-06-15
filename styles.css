@@ -43,6 +43,8 @@ button {
 button:hover {
     background-color: #1976D2;
 }
-table, th, td {
-    border: 1px solid;
+td {
+    border: 1px double;
+    verticle-align: top;
+    text-align: justify;
 }
