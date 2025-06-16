@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Undermining the Constitution: The US Administration's Attack on the Rule of Law</title>
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Violations of the Law</h1>
+ <br>
+  <h2>Illegal Actions by the Trump Administration:</h2>     
+    <table>
+      <thead>
+        <tr>
+          <th>Administration Action</th>
+          <th>Why does this violate the Constitution?</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Signed an executive order <a href="https://www.npr.org/2025/03/28/nx-s1-5343474/trump-collective-bargaining-unions-federal-employees">ending the collective bargaining agreements</a> of employees of about 20 federal agencies.</td>
+          <td>The Civil Service Reform Act of 1978 gives the president the authority to halt collective bargaining at only agencies related to national security like the CIA and FBI. This order expands to federal employees across the government like at the Departments of Agriculture and Health & Human Services.</td>
+          <td></td>
+        </tr>
+  	   <tr>
+          <td>The National Institutes of Health <a href="https://www.science.org/content/article/lawsuit-aims-broadly-overturn-nih-s-grant-terminations">terminated hundreds of grants</a>.</td>
+          <td>NIH did not follow the Administrative Procedures Act which outlines how federal agencies can make such decisions.</td>
+          <td></td>
+        </tr>
+  	   <tr>
+          <td>Top White House officials shared <a href="https://thehill.com/policy/national-security/5218181-signal-chat-violates-espionage-act/">detailed war plans</a> on a publicly-available messaging service and accidentally included a journalist in the communications. The messages were later <a href="https://www.nytimes.com/2025/04/15/us/politics/cia-director-leaked-chat.html?utm_source=substack&utm_medium=email">deleted from the phone</a> of the CIA director after an order from a federal judge to preserve the communications.</td>
+          <td>This likely violates the Espionage Act, which prohibits the intentional or inadvertent sharing of national defense information. It is also a violation of the <a href="https://www.factcheck.org/2025/03/was-the-signal-chat-illegal/">Presidential Records Act and Federal Records Act</a> — which outline a procedure for preserving communication related to official government business — as well as disobedience to the Judicial Branch.</td>
+          <td>It was later revealed that the Defense Secretary shared war plans on a <a href="https://www.bbc.com/news/articles/c4g8r701lrno">second group chat</a> which included his wife, brother, and personal lawyer.</td>
+        </tr>
+  	   <tr>
+          <td>DOGE has <a href="https://www.npr.org/2025/03/11/nx-s1-5305054/doge-elon-musk-security-data-information-privacy">gained access to government databases</a> that store a slew of citizens; personal information, including name, social security number, address, medical diagnoses and treatments, notes from therapy sessions, income information, <a href="https://www.npr.org/2025/04/15/nx-s1-5355896/doge-nlrb-elon-musk-spacex-security">union records, proprietary business secrets, data on ongoing court cases</a>, among others.</td>
+          <td>This is a violation of the American Privacy Act, which governs how the government collects, stores, and shares personal information, including between agencies.</td>
+          <td>DOGE has reportedly been using this information to compile a <a href="https://www.wired.com/story/doge-collecting-immigrant-data-surveil-track/?utm_source=substack&utm_medium=email">master database with all government data on individuals</a>, including sensitive biometric data, with the primary purpose of surveilling undocumented immigrants. This has nothing to do with DOGE’s purported mission of eliminating wasteful spending.</td>
+        </tr>
+  	   <tr>
+          <td><a href="https://www.usnews.com/news/national-news/articles/2025-04-15/trump-fired-18-government-watchdogs-this-is-why-it-matters">Fired 18 Inspectors General</a>, Congressionally-created positions tasked with monitoring waste, fraud, and abuse, across federal government departments.</td>
+          <td>The president is required by law to inform Congress of the firings and the reasons behind them, but the Trump Administration gave Congress no information on the 18 firings. A federal judge said that this is a <a href="https://abcnews.go.com/Politics/trump-violated-law-fired-independent-watchdogs-judge/story?id=120231386">likely violation of the law</a>.</td>
+          <td></td>
+        </tr>
+  	   <tr>
+          <td>The Consumer Financial Protection Bureau <a href="https://www.nytimes.com/2025/04/17/us/politics/consumer-financial-protection-bureau-layoffs.html?utm_source=substack&utm_medium=email">laid off almost 90% of its employees</a> less than a day after a judicial order requiring a “particularized assessment” of each employee’s role in satisfying the Bureau’s legal duty.</td>
+          <td>It is unlikely the officials were able to conduct an assessment of nearly 1,700 employee’s responsibilities in less than 24 hours. The same judge <a href="https://www.wired.com/story/cfpb-terminations-paused-trump/?utm_source=substack&utm_medium=email">halted the firings</a> until the CFPB could provide more evidence on how the lay-offs were carried out.</td>
+          <td></td>
+        </tr>
+  	   <tr>
+          <td><a href="https://www.nytimes.com/2025/04/28/climate/national-climate-assessment-authors-dismissed.html">Dismissed hundreds of researchers</a> preparing the National Climate Assessment, a comprehensive report on how rising temperatures will impact human health and the economy.</td>
+          <td>This report is Congressionally mandated and experts say that this move from the Trump administration will likely prevent its production.</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+<script src="script.js"></script>
+</body>
+</html>i
