@@ -42,7 +42,7 @@ a:hover {
   font-weight: bold;
 }
 a.button {
-    background-color: #f2f2f2;
+    background-color: #ddd;
     color: black;
     padding: 14px 28px;
     border: none;
@@ -55,8 +55,8 @@ a.button {
     font-size: 15px;
 }
 a.button:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #333;
+    color: white;
 }
 td {
     vertical-align: top;
