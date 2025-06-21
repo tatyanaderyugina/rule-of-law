@@ -33,15 +33,17 @@ nav a:hover {
     color: white;
 }
 
-button {
-    background-color: #2196F3;
-    color: white;
-    padding: 10px 20px;
+.button {
+    background-color: #333;
+    color: f2f2f2;
+    padding: 14px 28px;
     border: none;
-    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
 }
-button:hover {
-    background-color: #1976D2;
+.button:hover {
+    background-color: #ddd;
+    color: black;
 }
 td {
     vertical-align: top;
@@ -65,15 +67,4 @@ td {
 .topnav a:hover {
   background-color: #ddd;
   color: black;
-}
-.button {
-  border: none;
-  background-color: inherit;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  display: inline-block;
-}
-.btn:hover {
-  background: #eee;
 }
