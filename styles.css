@@ -38,6 +38,9 @@ a:link {
 a:visited {
   color: black;
 }
+a:hover {
+  font-weight: bold;
+}
 .button {
     background-color: #333;
     color: f2f2f2;
