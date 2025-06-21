@@ -54,6 +54,9 @@ a.button {
     font-weight: bold;
     font-size: 20px;
 }
+a.button:visted {
+    color: f2f2f2;
+}
 a.button:hover {
     background-color: #ddd;
     color: black;
