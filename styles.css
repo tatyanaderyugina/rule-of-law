@@ -44,7 +44,9 @@ a:visited {
     padding: 14px 28px;
     border: none;
     cursor: pointer;
-    display: inline-block;
+    display: block;
+    text-align: center;
+    width: 100%;
 }
 .button:hover {
     background-color: #ddd;
