@@ -66,3 +66,14 @@ td {
   background-color: #ddd;
   color: black;
 }
+.button {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn:hover {
+  background: #eee;
+}
