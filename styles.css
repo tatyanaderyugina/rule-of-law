@@ -83,8 +83,8 @@ td {
 }
 @media (max-width: 600px) {
   body {
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: 0;
+    padding: 16px;
     }
   a.button {
     width: 50%;
@@ -100,12 +100,14 @@ td {
   }
   tr {
     margin-bottom: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     padding: 1rem;
     border-radius: 4px;
-    width: 90%
+    width: 100%
     margin: 1rem auto;
     max-width: 500px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
   }
   td {
     display: flex;
