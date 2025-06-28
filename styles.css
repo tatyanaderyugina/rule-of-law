@@ -86,4 +86,7 @@ td {
     margin-left: 16px;
     margin-right: 16px;
     }
+  a.button {
+    width: 50%;
+  }
 }
