@@ -111,6 +111,7 @@ td {
     border: none;
     word-wrap: break-word;
     overflow-wrap: anywhere;
+    word-break: break-all;
   }
   td::before {
     content: attr(data-label);
