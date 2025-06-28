@@ -81,3 +81,9 @@ td {
   background-color: #ddd;
   color: black;
 }
+@media (max-width: 600px) {
+  body {
+    margin-left: 16px;
+    margin-right: 16px;
+    }
+}
