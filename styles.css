@@ -122,8 +122,7 @@ td {
   }
   td a {
     display: inline;
-    word-wrap: break-word;
-    overflow-wrap: anywhere;
+    overflow-wrap: normal;
     word-break: normal;
   }
 }
