@@ -115,6 +115,7 @@ td {
     content: attr(data-label);
     font-weight: bold;
     margin-bottom: 0.25rem;
+  }
   td a {
     display: inline;
     word-wrap: break-word;
