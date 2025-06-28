@@ -94,11 +94,10 @@ td {
   table, tbody, tr, td {
     display: block;
     width: 100%;
-    margin-left: 16px;
     margin-right: 16px;
   }
-   thead {
-  display: none;
+  thead {
+    display: none;
   }
   tr {
     margin-bottom: 1rem;
@@ -111,9 +110,6 @@ td {
     flex-direction: column;
     padding: 0.5rem 0;
     border: none;
-    word-wrap: break-word;
-    overflow-wrap: anywhere;
-    word-break: break-all;
   }
   td::before {
     content: attr(data-label);
@@ -121,5 +117,8 @@ td {
     margin-bottom: 0.25rem;
   td a {
     display: inline;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    word-break: break-all;
   }
 }
