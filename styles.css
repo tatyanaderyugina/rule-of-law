@@ -95,6 +95,9 @@ td {
     display: block;
     width: 100%;
   }
+   thead {
+  display: none;
+  }
   tr {
     margin-bottom: 1rem;
     border: 1px solid #ccc;
@@ -106,6 +109,8 @@ td {
     flex-direction: column;
     padding: 0.5rem 0;
     border: none;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
   }
   td::before {
     content: attr(data-label);
