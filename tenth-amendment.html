@@ -34,12 +34,26 @@
       </thead>
       <tbody>
         <tr>
-          <td>Signed an <a href="https://www.npr.org/2025/03/26/g-s1-55927/trump-voting-citizenship-executive-order" target="_blank" rel="noopener noreferrer">executive order that forces states</a> to adopt proof of citizenship requirements to vote, remove people from voter rolls, and share election data with the federal government.</td>
-          <td>Article I, Section 4 of the Constitution states “The Times, Places and Manner of holding Elections for Senators and Representatives, shall be prescribed in each State by the Legislature thereof; but the Congress may at any time by Law make or alter such Regulations…”</td>
-          <td>State election law can only be changed by an act of Congress.</td>
+          <td data-label="Administrative Action">Signed an <a href="https://www.npr.org/2025/03/26/g-s1-55927/trump-voting-citizenship-executive-order" target="_blank" rel="noopener noreferrer">executive order that forces states</a> to adopt proof of citizenship requirements to vote, remove people from voter rolls, and share election data with the federal government.</td>
+          <td data-label="Why does this violate the Constitution?">Article I, Section 4 of the Constitution states “The Times, Places and Manner of holding Elections for Senators and Representatives, shall be prescribed in each State by the Legislature thereof; but the Congress may at any time by Law make or alter such Regulations…”</td>
+          <td data-label="Notes">State election law can only be changed by an act of Congress.</td>
         </tr>
       </tbody>
     </table>
 <script src="script.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll('td').forEach(function(td) {
+      // Only wrap if not already wrapped
+      if (!td.querySelector('span')) {
+        const span = document.createElement('span');
+        while (td.firstChild) {
+          span.appendChild(td.firstChild);
+        }
+        td.appendChild(span);
+      }
+    });
+  });
+</script>
 </body>
 </html>
