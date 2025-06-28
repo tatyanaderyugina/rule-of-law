@@ -94,5 +94,19 @@
       </tbody>
     </table>
 <script src="script.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll('td').forEach(function(td) {
+      // Only wrap if not already wrapped
+      if (!td.querySelector('span')) {
+        const span = document.createElement('span');
+        while (td.firstChild) {
+          span.appendChild(td.firstChild);
+        }
+        td.appendChild(span);
+      }
+    });
+  });
+</script>
 </body>
 </html>
