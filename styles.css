@@ -63,7 +63,12 @@ td {
     text-align: left;
     padding: 20px;
     border-top: 1px solid;
-    width: 33%;
+    width: 30%;
+}
+/* Date column stays narrow */
+td:first-child {
+    width: 10%;
+    white-space: nowrap;
 }
 .topnav {
   background-color: #333;
@@ -99,15 +104,13 @@ td {
     display: none;
   }
   tr {
-    margin-bottom: 1rem;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     padding: 1rem;
     border-radius: 4px;
-    width: 100%
+    width: 100%;
     margin: 1rem auto;
     max-width: 500px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
   }
   td {
     display: flex;
