@@ -13,7 +13,7 @@ Static GitHub Pages site (no build step) documenting Trump administration action
 
 ## Conventions
 
-- Entries are chronological within each table (oldest first); new rows go at the bottom of `<tbody>`
+- Entries are reverse-chronological within each table (newest first); new rows go at the TOP of `<tbody>`. Month is the unit of ordering; same-month entries have no finer sorting. Rows with spanning dates ("2025&ndash;2026") or ongoing status sit above the newest dated entry
 - Every entry cites reputable primary sources (court documents, AP, Reuters, NYT, WaPo, etc.) with links embedded in the cell text; never cite aggregator substacks
 - Inclusion rubric and the full update workflow live in the user-level `update-tracker` skill (`~/.claude/skills/update-tracker/SKILL.md`)
 - Keep HTML hand-written and simple; match existing formatting
