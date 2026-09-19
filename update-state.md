@@ -13,13 +13,14 @@ This file tracks how current the site's content is. The `/update-tracker` skill 
 - **GAO impoundment page — earlier diagnosis was wrong; it is usable.** Previous updates recorded this page as serving stale or cached content. It is not: `https://www.gao.gov/legal/appropriations-law/impoundment-control-act` fetches fine, is sorted newest-first, and paginates with `?page=N` (page 0 is the newest 10, page 1 runs from May 2025 back to 2010). Checked September 19, 2026 across both pages. **The list is genuinely current — GAO simply has not posted an Impoundment Control Act decision since B-337204.2 on September 29, 2025**, a gap of nearly a year, after issuing ten of them between June and September 2025. Whether GAO has stopped issuing them or stopped posting them is not something this page answers. Use the paginated URL directly on future updates rather than assuming the page is broken.
 - **GAO appropriations-law decision search** (`/legal/appropriations-law/search`) does return HTTP 403 to automated fetches, as do the filtered reports-and-testimonies pages. Only the search is blocked, not the decision listings.
 - **Substack gap:** the Tyranny Tracker published no dedicated daily posts for Days 575–591 (August 17 – September 2, 2026); that period was folded into a retrospective in the Day 593 post.
-- **Session limit hit:** the web-search budget (200 calls) was exhausted before verification finished, which is why three otherwise-qualifying items were held (below).
+- **Fetch-blocked outlets (checked September 19, 2026):** apnews.com, wsj.com, nytimes.com, politico.com, reuters.com, latimes.com, theguardian.com and washingtonpost.com are not accessible to the search tool at all. thehill.com and forbes.com return HTTP 403 to fetches of the canonical URL, but The Hill's `/amp/` variant of the same path returns the full article and can be used to verify the canonical URL. cnn.com returned HTTP 451. courtlistener.com docket pages return 403 (RECAP PDFs on storage.courtlistener.com still fetch).
+- **abcnews.com is ABC News's real domain.** abcnews.go.com now issues a 301 redirect to abcnews.com, so links on that domain are legitimate (earlier note flagging it as implausible was wrong).
+- **AP wire stories** on local-station and regional sites (OPB, WPRI, CT Mirror, Boston 25, etc.) remain unusable as rehosts; when apnews.com cannot be reached, look for Law360 / trade-press / regional independent reporting instead.
+- **Session limit hit:** the web-search budget (200 calls) was exhausted before verification finished, which is why three otherwise-qualifying items were initially held; they were sourced and added in a follow-up session later the same day.
 
 ## Items held for want of a usable source
 These met the rubric on substance but could not be sourced to a standard the site uses. Re-check them next cycle.
-- **Solar for All termination vacated** (reported September 18, 2026, D.R.I.) — would be a Notes update to the existing August 2025 entry on `federal-spending-additional`. Only source found was an unreliable aggregator.
-- **Corey Lewandowski soliciting private deals from Qatar and UAE** while steering DHS contracting as a special government employee; DHS Inspector General reportedly opened an investigation (September 8, 2026). One Forbes staff byline plus an opinion blog — the abuse-of-power rubric needs two major outlets.
-- **Chloe Dillon whistleblower suit** (fired San Francisco immigration judge, September 2026) — reported by several outlets but no URL could be verified, and one reported link used an implausible domain.
+- (none as of September 19, 2026 — the three items held on September 19 were sourced and added the same day: Solar for All vacatur as a Notes update on `federal-spending-additional`; Lewandowski Qatar/UAE solicitation on `abuse-of-power-additional`; Chloe Dillon whistleblower suit on `fifth-amendment-additional`)
 
 ## Items to re-check on the next update
 - D.C. Circuit en banc on the Boasberg contempt inquiry — argument was set for September 29, 2026
@@ -29,6 +30,9 @@ These met the rubric on substance but could not be sourced to a standard the sit
 - First Circuit: Harvard funding freeze (no argument date set); AAUP v. Rubio (still in briefing)
 - D.C. Circuit: law-firm executive orders + Zaid clearance (argued May 14, 2026, still undecided)
 - Lisa Cook — the renewed removal attempt drew a August 26, 2026 response from her lawyers rejecting the legal basis; new litigation expected
+- Solar for All: EPA said it is considering an appeal of the September 18, 2026 D.R.I. vacatur (Rhode Island AFL-CIO v. EPA, 1:25-cv-00510); the opinion PDF was not yet on CourtListener as of September 19
+- Lewandowski: Blumenthal/Welch records deadline September 25, 2026; watch for a DHS IG report or criminal referral (WSJ reported one is being considered, unconfirmed elsewhere)
+- Chloe Dillon v. DOJ (N.D. Cal., filed September 10, 2026) — watch for a government response
 - FEMA workforce ruling (September 12, 2026) and the third-country removal ruling (September 18, 2026) — watch for appeals
 - OMB apportionment-footnote case — the Education Department was ordered to report by September 28, 2026 on the expiring $180 million
 - GGRF / Climate United Fund — cert petition expected; D.C. Circuit mandate stayed through November 9, 2026
